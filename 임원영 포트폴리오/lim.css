@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+
+
+/* setting start */
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+
+/* setting end */
+
+body {
+    background-color: rgba(239,239,237);
+}
+
+#header {
+    text-align: center;
+    background-color: rgba(239,239,237);
+}
+
+nav {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1em;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1em;
+}
+
+#bg {
+    animation-duration: 2s;
+    animation-name: on_text;
+    background-image: url("./assets/main.jpg");
+    background-position : 0% 10%;
+    height: 1150px; 
+}
+
+
+#bg h1 {
+    animation-duration: 2s;
+    animation-name: on_text;
+    top: 130px;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:  rgba(101,130,128);
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1em;
+    text-transform: uppercase;
+    
+}
+@keyframes on_text {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+        opacity: 1;
+    }
+  }
+
+#skill {
+    background-color: rgba(239,239,237);
+    text-align: center;
+}
+
+#skill h1 {
+    color:  rgba(101,130,128);
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1em;
+    padding-bottom: 50px;
+}
+
+#status_1, #status_2 {
+    opacity: 0.7;
+    background-color: rgba(239,239,237);
+}
+
+
+.col-md-3 {
+    padding-bottom: 50px;
+}
+
+#footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgba(101,130,128);
+    color: rgba(239,239,237);
+    letter-spacing: 1px;
+    width: 100%;
+    height: 50px;
+    font-size: 1.1em;
+    font-weight: 900;
+    line-height: 1em;
+}
+
+#footer div {
+    top: 8px;
+    position: relative;
+}
+
+
+
+
+
+
+
