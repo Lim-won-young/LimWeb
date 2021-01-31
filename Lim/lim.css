@@ -45,7 +45,10 @@ nav {
     animation-name: on_text;
     background-image: url("./assets/main.jpg");
     background-position : 0% 10%;
-    height: 1150px; 
+    width: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1500px; 
 }
 
 
@@ -74,7 +77,7 @@ nav {
   }
 #sk {
     width: 100px;
-    height: 100px;
+    height: 10px;
 }
 
 #turm1 {
