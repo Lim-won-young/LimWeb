@@ -9,6 +9,7 @@
     box-sizing: border-box;
 }
 
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
@@ -16,10 +17,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
 }
 
-
 /* setting end */
 
 body {
+    background-color: rgba(239,239,237);
+}
+
+section {
     background-color: rgba(239,239,237);
 }
 
@@ -68,10 +72,27 @@ nav {
         opacity: 1;
     }
   }
+#sk {
+    width: 100px;
+    height: 100px;
+}
+
+#turm1 {
+    background-color: rgba(239,239,237);
+}
+
+#turm2 {
+    background-color: rgba(239,239,237);
+}
+
+#turm3 {
+    background-color: rgba(239,239,237);
+}
 
 #skill {
     background-color: rgba(239,239,237);
     text-align: center;
+    padding-top : 200px;
 }
 
 #skill h1 {
@@ -93,6 +114,95 @@ nav {
     padding-bottom: 50px;
 }
 
+#about {
+    padding-top: 250px; 
+}
+
+#about h1 {
+    color:  rgba(101,130,128);
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#about p {
+    color:  rgba(101,130,128);
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1em;
+    text-align: center;
+}
+
+#photo {
+    opacity: 0.7;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    background-color: rgba(239,239,237);
+    border-radius: 70%;
+    overflow: hidden; 
+    border:1px solid black;
+    align-self: center;
+}
+
+#about {
+    text-align: center;
+}
+
+#about h4 {
+    color:  rgba(101,130,128);
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1.2em;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+#about p {
+    color:  rgba(101,130,128);
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1em;
+    padding-bottom: 10px;
+}
+
+
+
+#portfolio {
+    background: rgba(239,239,237);
+    padding-top: 230px;   
+    text-align: center;
+    padding-bottom: 400px;
+}
+
+#portfolio h1 {
+    color:  rgba(101,130,128);
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1em;
+    padding-bottom: 150px;
+}
+
+#portfolio img {
+    margin: -3px;
+    border: 3px solid rgba(101,130,128);
+    border-radius: 3%;
+}
+
+span {
+    display: block;
+    padding-top: 20px;
+}
+
+
 #footer {
     font-family: 'Source Sans Pro', sans-serif;
     background: rgba(101,130,128);
@@ -108,10 +218,8 @@ nav {
 #footer div {
     top: 8px;
     position: relative;
+    padding-left: 10px;
 }
-
-
-
 
 
 
