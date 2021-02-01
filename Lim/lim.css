@@ -162,7 +162,7 @@ nav {
     font-weight: 900;
     letter-spacing: -0.035em;
     line-height: 1.2em;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -173,14 +173,14 @@ nav {
     font-weight: 900;
     letter-spacing: -0.035em;
     line-height: 1em;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 
 
 #portfolio {
     background: rgba(239,239,237);
-    padding-top: 230px;   
+    padding-top: 240px;   
     text-align: center;
     padding-bottom: 400px;
 }
